@@ -46,8 +46,8 @@ void binary_search(){
 
 
 int main(){
-    getvalues(); // Available in "A_header_file.h" file
-    sorting(); // To sort the array if it is not sorted 
+    get_values(); // Available in "A_header_file.h" file
+    sorting(); // To sort the array if it is not sorted, also available in "A_header_file.h" file
     binary_search();
 
     return 0;

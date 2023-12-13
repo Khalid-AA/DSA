@@ -20,7 +20,7 @@ using namespace std;
 
 int arr[max_size], i, n, j;
 
-void getvalues(){
+void get_values(){
     // Inserting into an empty array / Creating an array
     cout<<"Enter the number of elements: ";
     cin>>n;

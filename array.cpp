@@ -23,7 +23,7 @@ using namespace std;
 
 int arr[max_size], i, n, position;
 
-void getvalues(){
+void get_values(){
     // Inserting into an empty array / Creating an array
     cout<<"Enter the number of elements: ";
     cin>>n;
@@ -65,18 +65,18 @@ void display(){
 }
 
 int main(){
-    int do_this; // Either delete an element or add an element
-    getvalues();
+    int choose; // Either delete an element or add an element
+    get_values();
 
 
-    while(do_this != 1 && do_this !=2){
+    while(choose != 1 && choose !=2){
         cout<<"\nDo you want to:\n1: Delete an element from the array.\n2: Insert an element into the array.\n";
-        cin>>do_this;
+        cin>>choose;
 
-        if (do_this == 1){
+        if (choose == 1){
             deleting();
         }
-        else if(do_this == 2){
+        else if(choose == 2){
             insertion();
         }
     }
