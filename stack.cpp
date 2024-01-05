@@ -20,7 +20,7 @@ Primary operations on a stack are:
     Step 4 − Decreases the value of top by 1.
 
 NB:- In the code below I am working with integers, in case there is need for other 
-     data types do the changes accordingly e.g., for string: changes the occurrences 
+     data types, do the changes accordingly e.g., for string: changes the occurrences 
      of 'int' to 'str' like 'str pop(){}'
 
 */
@@ -36,7 +36,7 @@ class Stack{
     int arr[max_size];
 
     public:
-        Stack(){ //Constructor
+        Stack(){ // Constructor
             top = -1;
         }
 
