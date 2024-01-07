@@ -30,7 +30,7 @@ NB:- In the code below I am working with integers, in case there is need for oth
 #include <typeinfo>
 #define max_size 50
 using namespace std;
-
+ 
 class Stack{
     int top;
     int arr[max_size];
